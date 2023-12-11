@@ -1,0 +1,38 @@
+html{
+	font-size : 15px;/* px signifie 'pixels': la taille de base pour la police est désormais 15 pixels de haut  */
+	font-family: 'Open Sans', sans-serif;/* police de caractères obtenue à partir de Google fonts*/
+	background-color : black;/* arrière-plan de couleur vert */
+}
+
+body {
+  width: 650px;
+  margin: 10px auto;
+  background-color: orange;
+  padding: 0px 20px 20px 20px;
+  border: 5px double black;
+}
+
+h1{
+	font-size : 50px;
+	text-align : center;
+	margin : 0px;/* suppression de l'espace en haut du corps de la page en raison de l'élément <h1>*/
+	padding: 20px 0;    
+	color: black;/*vert assez foncé*/
+	text-shadow: -3px 3px 3px black;/*ombre en bas et à gauche d'1px,1px de rayon de flou*/
+}
+
+h3{
+	font-size : 30px;
+	text-decoration : underline;
+}
+p{
+  line-height: 2;
+  letter-spacing: 1px;
+}
+img{
+	display : block;/*éléments inline (ce qu'on pourrait traduire par « en ligne »), ce qui signifie 
+					qu'on ne peut pas leur appliquer ces valeurs d'espacement. Pour pouvoir appliquer des marges sur 
+					l'image comme pour un bloc, on utilise display: block; pour que l'image se comporte comme 
+					un élément de bloc.*/
+	margin : 0 auto;
+}
